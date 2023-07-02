@@ -1,0 +1,33 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flashlight{
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 130px;
+    height: 335px;
+    
+}
+#red,#yellow,#green{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    cursor: pointer;
+}
+#btn{
+    margin: 10px;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
